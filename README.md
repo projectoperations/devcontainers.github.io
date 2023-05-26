@@ -1,8 +1,8 @@
-# Development Containers Website
+# DevOps, Design, Analytics & elearning Containers
 
-This repo holds the website for the [Development Containers Specification](https://github.com/devcontainers/spec).
+This repo holds the website for the [Development Containers Specification](https://github.com/igeclouds/containers/spec).
 
-You may view the site at [containers.dev](https://containers.dev).
+You may view the site at [containers.igecloud](https://igeclouds.dev/containers).
 
 ## Building
 
@@ -12,7 +12,7 @@ If you'd like to build and preview the site yourself, we make it as smooth as po
 
 You may build GitHub Pages sites with [Jekyll](https://jekyllrb.com/), which is a Ruby gem. You could manually install these tools on your machine, or you can easily get started with the setup you already need through a dev container!
 
-You may review this repo's dev container in the [`.devcontainer`](https://github.com/devcontainers/containers.dev/tree/gh-pages/.devcontainer) folder.
+You may review this repo's dev container in the [`.container`](https://github.com/containers/containers.dev/tree/gh-pages/.container) folder.
 
 It is from this [Jekyll Dev Container Template](https://github.com/devcontainers/templates/tree/main/src/jekyll).
 
