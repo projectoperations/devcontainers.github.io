@@ -458,3 +458,18 @@
   contact: https://github.com/bdsoha/devcontainers/issues
   repository: https://github.com/bdsoha/devcontainers
   ociReference: ghcr.io/bdsoha/devcontainers
+- name: Python3 with Pyenv and PDM
+  maintainer: Nafnix
+  contact: https://github.com/nafnix/devcontainers-templates/issues
+  repository: https://github.com/nafnix/devcontainers-templates
+  ociReference: ghcr.io/nafnix/devcontainers-templates
+- name: Data science with Python and R
+  maintainer: VS Code Data Science
+  contact: https://github.com/microsoft/datascience-py-r/issues
+  repository: https://github.com/microsoft/datascience-py-r
+  ociReference: ghcr.io/microsoft/datascience-py-r
+- name: Features by tomharvey
+  maintainer: Tom Harvey
+  contact: https://github.com/tomharvey/devcontainer-features/issues
+  repository: https://github.com/tomharvey/devcontainer-features
+  ociReference: ghcr.io/tomharvey/devcontainer-features
