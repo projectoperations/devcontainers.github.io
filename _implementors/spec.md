@@ -24,9 +24,9 @@ A **development container** is composed of a definition (e.g. contained in a `de
 
 While the structure of this metadata is critical, it is also important to call out how this data can be represented on disk where appropriate. While other representations may be added over time, metadata can be stored in a JSON with Comments file called `devcontainer.json` today. Products using it should expect to find a devcontainer.json file in one or more of the following locations (in order of precedence):
 
-- .devcontainer/devcontainer.json
-- .devcontainer.json
-- .devcontainer/<folder>/devcontainer.json (where <folder> is a sub-folder, one level deep)
+- `.devcontainer/devcontainer.json`
+- `.devcontainer.json`
+- `.devcontainer/<folder>/devcontainer.json` (where `<folder>` is a sub-folder, one level deep)
 
 It is valid that these files may exist in more than one location, so consider providing a mechanism for users to select one when appropriate.
 
@@ -90,7 +90,7 @@ To apply the metadata together with a user's devcontainer.json at runtime, the f
 | `forwardPorts` | `(number \| string)[]` | Union of all ports without duplicates. Last one wins (when mapping changes). | x |   |
 | `shutdownAction` | `string` (enum) | Last value wins. | x |   |
 | `updateRemoteUserUID` | `boolean` | Last value wins. | x |   |
-| `hostRequirements` | `cpus`, `memory`, `storage` | Max value wins. | x |   |
+| `hostRequirements` | `cpus`, `memory`, `storage`, `gpu` | Max value wins. | x |   |
 {: .table .table-bordered .table-responsive}
 
 Variables in string values will be substituted at the time the value is applied. When the order matters, the devcontainer.json is considered last.
