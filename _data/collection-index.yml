@@ -493,3 +493,23 @@
   contact: https://github.com/stateful/devcontainer-features/issues
   repository: https://github.com/stateful/devcontainer-features
   ociReference: ghcr.io/stateful/devcontainer-features
+- name: Wpdevenv Templates
+  maintainer: Wpdevenv
+  contact: https://github.com/wpdevenv/dev_container_templates/issues
+  repository: https://github.com/wpdevenv/dev_container_templates
+  ociReference: ghcr.io/wpdevenv/dev_container_templates
+- name: Native Dev Container Features
+  maintainer: John Chlark Sumatra
+  contact: https://github.com/itsmechlark/features/issues
+  repository: https://github.com/itsmechlark/features
+  ociReference: ghcr.io/itsmechlark/features
+- name: Assorted Features
+  maintainer: Marco Zaccaro
+  contact: https://github.com/marcozac/devcontainer-features/issues
+  repository: https://github.com/marcozac/devcontainer-features
+  ociReference: ghcr.io/marcozac/devcontainer-features
+- name: Features by Elan Hasson
+  maintainer: ElanHasson
+  contact: https://github.com/ElanHasson/devcontainer-features/issues
+  repository: https://github.com/ElanHasson/devcontainer-features
+  ociReference: ghcr.io/elanhasson/devcontainer-features
