@@ -1,6 +1,6 @@
 # Internet Governance Experts- IGE CLOUDS
 
-This repo holds the website for the [Development Containers Specification](https://github.com/igeclouds/containers/spec).
+This repo holds the website for the [Development Containers Specification](https://igeclouds.github.io/devcontainers/spec).
 
 You may view the site at [containers.igecloud](https://igeclouds.dev/containers).
 
@@ -19,7 +19,7 @@ It is from this [Jekyll Dev Container Template](https://github.com/devcontainers
 ### Steps to build and run
 
 * Clone or open this repo in the dev container-supporting editor of your choosing.
-     * You may review supporting tools and services [here](https://containers.dev/supporting).
+     * You may review supporting tools and services [here](https://containers.igecloud.dev/supporting).
 * Reopen this repo in the dev container, so that the container builds and you may develop inside it using the included tools. 
 * Once the dev container finishes building, execute the following command in your dev container to start the site: `bundle exec jekyll serve`
 * Check out the site! http://localhost:4000/containers.dev/
@@ -32,4 +32,4 @@ For issues on and contributions to the dev container specification itself, pleas
 
 ## License
 
-License for this repository: https://github.com/devcontainers/containers.dev/blob/gh-pages/LICENSE.
+License for this repository: https://igeclouds.github.com/containers.dev/blob/gh-pages/LICENSE.
